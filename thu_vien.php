@@ -323,6 +323,15 @@ function fix($string)
 	return $string;
 }
 
+function format_sound_name_file($input){
+	if(strpos($input,'/') !== False) $input = str_replace('/',',',$input);
+	$src = '"https://raw.githubusercontent.com/vuvihi/web_tu_dien/master/sound/'.$input.'.mp3"';
+	$string = <<<EOF
+<audio id="audio" src= $src>
+EOF;
+	return $string;
+}
+
 /*
 $poi = make_index_file();
 //$file = @fopen('D:\file.txt', 'w+');
