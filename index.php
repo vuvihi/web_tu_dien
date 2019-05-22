@@ -50,9 +50,7 @@
 									<?php
 									if($bol != '')
 									{
-										if(strpos($input,'/') !== False) $input = str_replace('/',',',$input);
-										$src = "'https://raw.githubusercontent.com/vuvihi/web_tu_dien/master/sound/".$input.".mp3'";
-										echo "<audio id='audio' src= $src>";
+										echo format_sound_name_file($input);
 										}
 										else
 											echo "<audio id='audio' src= 'sound/default_sound.mp3'>";
