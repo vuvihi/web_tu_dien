@@ -18,5 +18,6 @@
     * [Domain free from Freenom](https://my.freenom.com/clientarea.php)
     * [Hosting free from 000webhost](https://www.000webhost.com/)
     * [Database source](http://www.informatik.uni-leipzig.de/~duc/Dict/)
+    * [Database encrypt](https://quantrimang.com/xay-dung-mot-ung-dung-tu-dien-don-gian-4973?fbclid=IwAR0uR4InlhBz-EUn9xt3t-bX6xdM22rUFe6hwQGNBPQ8eu3y_wzm-CrKI1E)
     * [Python Libary](https://pypi.org/project/gTTS/)
     * [CloudFlare DNS and Hosting](https://www.cloudflare.com/)
